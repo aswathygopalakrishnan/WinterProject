@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+#menu-outer {
+	height: 84px;
+	
+}
+
+.table {
+	display: table;   
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+	.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.bg
+{
+background-image : url("pink.jpg");
+background-repeat : no-repeat;
+background-position: center;
+background-size: cover;
+}
+	</style>
+</head>
+<body>
+<div class="bg">
+	<font size="20">
+		<center>
+			SHOPAHOLIC
+		</center>
+		
+	</font>
+<div class="topleft">
+<img src="logo.gif" width="80" height="80" alt="logo">
+</div>
+<div class="dropdown" style="top: 30px;left: 7px">
+  <button class="dropbtn">Shop</button>
+  <div class="dropdown-content">
+    <a href="#">Apparel</a>
+    <a href="#">Makeup</a>
+    <a href="#">Home Decor</a>
+  </div>
+
+</div>
+	<div id="menu-outer" style="position: relative;top: -50px;left: 900px">
+  <div class="table">
+    <ul id="horizontal-list">
+      <li><a href="#"><img src="hamburger.png" width="50" height ="50" alt="list item 1" /></a></li>
+      <li><a href="#"><img src="search.png" width="50" height ="50" alt="list item 2" /></a></li>
+      <li><a href="#"><img src="cart.png" width="50" height ="50" alt="list item 3" /></a></li>
+      
+    </ul>
+  </div>
+</div>
+<marquee behavior="scroll" direction="left">
+    <img src="images.jpg" width="500" height="220" alt="Natural" />
+    <img src="image1.jpg" width="500" height="220" alt="Natural" />
+    <img src="image3.jpg" width="500" height="220" alt="Natural" />
+  </marquee>
+  <table width="1000px" height="100%" border="1" align="center">
+
+  	<tr>
+  		<td>
+  			
+  			<a href="apparel.html">
+  				<img src="shoes.jpg" alt="shoes">
+  			</a>
+  		</td>
+  		<td>
+  			<a href="https://www.amazon.in/Makeup-Nails/b?ie=UTF8&node=1374357031">
+        <img src="makeup.jpg" alt="makeup">
+  		</a>
+  		</td>
+  		<td>
+        <a href="https://www.amazon.in/s/ref=s9_acss_bw_cts_Wrsjn12s_T2_w?rh=i%3Aapparel%2Cn%3A13830302031%2Cp_98%3A10440597031&bbn=13830302031&field-pct-off-with-tax=50-&ie=UTF8&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-6&pf_rd_r=NMG2YTBT992D0B5G9VY9&pf_rd_t=101&pf_rd_p=4d306c2b-d042-4610-a819-a0bfd04ea402&pf_rd_i=1953602031">
+        <img src="clothes.jpg" alt="clothes">
+  		</a>
+  		</td>
+  		
+  	</tr>
+  </table>
+<footer>
+	<div class="table">
+    <ul id="horizontal-list">
+    	<li><button class="button" onclick="alert('call toll free:1800 250 127')">Contact us</button></li>
+    	<li><button class="button">About us</button></li>
+    </ul>
+</div>
+</footer>
+
+</body>
+</html>
